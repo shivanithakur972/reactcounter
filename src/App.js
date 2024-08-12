@@ -5,6 +5,8 @@ import EventBind from './components/EventBind';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Form from './components/Form';
+import HookCounter from './components/HookCounter';
+import DataFetching from './components/DataFetching';
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,8 @@ function App() {
   <UserGreeting />
   <NameList />
   <Form/>
+  <HookCounter />
+  <DataFetching />
     </div>
   );
 }

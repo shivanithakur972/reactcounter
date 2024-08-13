@@ -20,6 +20,7 @@ export default function DataFetching() {
       {posts.map(post => (
         <li key={post.id}>
             <h4>{post.title}</h4>
+            <h4>{post.heading}</h4>
             <p>{post.body}</p>
         </li>
       ))}
